@@ -1,4 +1,4 @@
-cask "dotnet-sdk6-0-200" do
+cask "dotnet-sdk@6.0.200" do
   version "6.0.200,6.0.2"
 
   arch = Hardware::CPU.intel? ? "x64" : "arm64"
