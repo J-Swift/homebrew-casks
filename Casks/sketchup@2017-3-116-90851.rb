@@ -1,4 +1,4 @@
-cask "sketchup" do
+cask "sketchup@2017-3-116-90851" do
   version "2017,3-116-90851"
   sha256 "a534d77d1ea9622b19463258abf21768cb8bb8126734bd40329dd4088b04d79f"
 
