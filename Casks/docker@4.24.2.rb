@@ -14,7 +14,7 @@ cask "docker@4.24.2" do
       skip "Legacy version"
     end
 
-    depends_on macos: ">= :catalina"
+    depends_on macos: :catalina
   end
   on_big_sur :or_newer do
     version "4.24.2,124339"
